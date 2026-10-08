@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Midterm Activity | Ana Liza</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .midterm-page {
+            display: grid;
+            grid-template-rows: 64px minmax(0, 1fr);
+            width: 100%;
+            height: 100vh;
+            height: 100dvh;
+        }
+
+        .project-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 0 20px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .project-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            border-radius: 50px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .project-title {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .project-frame {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <main class="midterm-page">
+        <header class="project-toolbar">
+            <a class="project-back" href="04-projects.html">
+                &larr; Back to Activities
+            </a>
+            <h1 class="project-title">Midterm Project</h1>
+        </header>
+
+        <iframe
+            class="project-frame"
+            src="https://analizalapinoso16-liza.github.io/ateliz/"
+            title="Full Midterm Project"
+        ></iframe>
+    </main>
+
+</body>
+
+</html>
